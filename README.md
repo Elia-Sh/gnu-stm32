@@ -1,10 +1,14 @@
 # STM32 minimal Development Environment
 
+
 # General descriptions
 * Board references: `https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html`
 * Other references:
     * `https://kleinembedded.com/stm32-without-cubeide-part-1-the-bare-necessities/`
     * `https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink`
+* Working example with FreeRTOS:
+    * `https://github.com/freelamb/stm32f10x_makefile_freertos`
+
 
 # Board specs -
 ```
