@@ -33,12 +33,11 @@ $ git clone https://github.com/STMicroelectronics/STM32CubeF1
 ```bash #
 # build from example dir -
 $ pwd
-~/stm_micro/STM32CubeF1/Projects/STM3210C_EVAL/Examples/UART/UART_Printf
+~/stm_micro/STM32CubeF1/Projects/STM32F103RB-Nucleo/Examples_LL/USART/USART_SyncCommunication_FullDuplex_IT
 
 $ arm-none-eabi-gcc Src/main.c -o main.elf -I Inc/ \
     -I __FULL_PATH__/STM32CubeF1/Drivers/STM32F1xx_HAL_Driver/Inc/ \
     -I __FULL_PATH__/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/ \
-    -I __FULL_PATH__/STM32CubeF1/Drivers/BSP/STM3210C_EVAL/
 ```
 
 
