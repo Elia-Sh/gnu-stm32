@@ -167,3 +167,8 @@ Examine uart
 (gdb) monitor reset init
 (gdb) continue
 ```
+
+
+# Note `main.c` is re-written "counter" print into serial
+It's a useful LLM trick, re-write to perform another action,
+in addition to prompt-definition "you are a <...> and your goal is to <...>"
